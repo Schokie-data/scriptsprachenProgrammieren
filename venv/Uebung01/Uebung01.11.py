@@ -6,7 +6,7 @@ while n < 3:
     n += 1
     text =  'Bitte ' + str(n) + '. Zahl eingeben: '
     i = int(input(text))
-    if i < 0:
+    if i < 1:
         break
     liste += i,
 else:
